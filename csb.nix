@@ -9,7 +9,6 @@ stdenv.mkDerivation {
     ];
     nativeBuildInputs = [
         rustup
-        rustc cargo
         pkg-config
     ];
     # installPhase = ''

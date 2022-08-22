@@ -1,7 +1,6 @@
-
 if ! command -v rustc &> /dev/null
 then
-    rustup default stable
+    echo "rust not installed"
 fi
 
 if ! command -v solana &> /dev/null
