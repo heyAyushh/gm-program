@@ -1,5 +1,5 @@
 {
-  "setupTasks": ["yarn install", "yarn build", "echo a | cat >> a.txt"],
+  "setupTasks": ["yarn install", "yarn build", "sh setup.sh"],
   "tasks": {
     "install-dependencies": {
       "name": "Install Dependencies",

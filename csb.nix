@@ -3,13 +3,11 @@ with import <nixpkgs> {};
 stdenv.mkDerivation {
     name = "rust";
     buildInputs = [
-        rustup
         openssl
         libudev-zero
-        vscode-extensions.matklad.rust-analyzers
+        vscode-extensions.matklad.rust-analyzer
     ];
     nativeBuildInputs = [
-        rustc cargo
         pkg-config
     ];
     # installPhase = ''
