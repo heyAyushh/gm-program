@@ -8,6 +8,8 @@ stdenv.mkDerivation {
         vscode-extensions.matklad.rust-analyzer
     ];
     nativeBuildInputs = [
+        rustup
+        rustc cargo
         pkg-config
     ];
     # installPhase = ''
